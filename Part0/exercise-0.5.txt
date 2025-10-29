@@ -1,0 +1,1 @@
+This diagram shows what happens when a user create a new note on the single page app
