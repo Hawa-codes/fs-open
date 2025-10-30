@@ -17,12 +17,6 @@ sequenceDiagram
     Browser -> Server: HTTP GET /spa.js
     Server --> Browser: spa.js
 
-    note over Browser
-        The browser executes the JavaScript code
-        in spa.js, which requests JSON data
-        from the server.
-    end note
-
     Browser -> Server: HTTP GET /data.json
     Server --> Browser: data.json (list of all notes)
     Browser -> User: Displays the list of notes on the page
